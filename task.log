@@ -1,0 +1,13 @@
+2021-04-14 18:07:15.803  INFO 7400 --- [restartedMain] com.az.task.AzTaskApplication            : Starting AzTaskApplication on DESKTOP-NB30PIG with PID 7400 (C:\Users\Mahendiran\Downloads\springBoot-JMS-ActiveMQ-For-Consume-and-Publish-master\springBoot-JMS-ActiveMQ-For-Consume-and-Publish-master\target\classes started by Mahendiran in C:\Users\Mahendiran\Downloads\springBoot-JMS-ActiveMQ-For-Consume-and-Publish-master\springBoot-JMS-ActiveMQ-For-Consume-and-Publish-master)
+2021-04-14 18:07:15.824  INFO 7400 --- [restartedMain] com.az.task.AzTaskApplication            : No active profile set, falling back to default profiles: default
+2021-04-14 18:07:15.926  INFO 7400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-14 18:07:18.620  INFO 7400 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-14 18:07:20.057  INFO 7400 --- [restartedMain] com.az.task.AzTaskApplication            : Started AzTaskApplication in 5.393 seconds (JVM running for 8.224)
+2021-04-14 18:07:20.222  INFO 7400 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : :::: Message Recieved :::: 
+2021-04-14 18:07:20.224  INFO 7400 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+:::: ControlSegment(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2021-04-14 18:07:20.224  INFO 7400 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+	sendToDestinationTopicQueue method Start
+2021-04-14 18:07:20.476  INFO 7400 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+	Message successfully published on Topic-Queue
+2021-04-14 18:16:04.550  INFO 7400 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
